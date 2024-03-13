@@ -1,5 +1,9 @@
 # typescript
 
+## 進度
+
+2-11 泛型第三部分 - 泛型在类和接口中的使用
+
 ## undefined
 
 在TypeScript的tsconfig.json設定檔中，有一個名為strictNullChecks的選項，用於開啟或關閉嚴格的null檢查。
