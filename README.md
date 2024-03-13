@@ -35,3 +35,9 @@
 - 對物件的形狀進行描述
 - Duck Typing(鴨子類型)
 - 用來做類型檢查
+
+## type, interface 之間的差異
+
+- type 可以聯合、交叉、映射、組合等的時候使用
+- interface, extends, implements, 用來描述物件的形狀時使用
+- 其他情況看經驗
