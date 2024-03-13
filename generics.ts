@@ -28,3 +28,30 @@ const str2 = echoWithLength("str");
 const obj = echoWithLength({ length: 10, width: 10 });
 const arr2 = echoWithLength([1, 2, 3]);
 echoWithLength(7); // Error
+
+// 推出的类型與傳入的类型相同
+class Queue<T> {
+  private data: T[] = [];
+  push(item: T) {
+    return this.data.push(item);
+  }
+  pop(): T {
+    return this.data.shift();
+  }
+}
+
+const queue = new Queue<number>();
+queue.push(1);
+const poped = queue.pop();
+if(poped){
+  poped.toFixed();
+}
+
+interface KeyPair<T, U> {
+  key: T;
+  value: U;
+}
+
+let kp1: KeyPair<number, string> = { key: 1, value: "str" };
+let kp2: KeyPair<string, number> = { key: "str", value: 2 };
+let arrThree: Array<number> = [1, 2, 3];
