@@ -43,3 +43,9 @@
 - 其他情況看經驗
 
 ## 第三方庫定義文件
+
+```
+declare const calculator: ICalculator
+
+export default calculator
+```
