@@ -49,3 +49,6 @@ declare const calculator: ICalculator
 
 export default calculator
 ```
+
+## utitlity types
+<https://www.typescriptlang.org/docs/handbook/utility-types.html#handbook-content>
