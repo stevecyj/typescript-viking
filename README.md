@@ -51,4 +51,36 @@ export default calculator
 ```
 
 ## utitlity types
+
 <https://www.typescriptlang.org/docs/handbook/utility-types.html#handbook-content>
+
+## project configuration
+
+<https://www.typescriptlang.org/zh/docs/handbook/tsconfig-json.html>
+
+- files
+- include
+  - 可以使用 glob 模式
+  - **/* 表示所有子目錄
+- exclude
+
+### compilerOptions
+
+- outDir: 輸出目錄
+- module:
+在 TypeScript 的 `tsconfig.json` 檔案中，`module` 是一個編譯選項，用於指定要生成的模組系統。這對於你的程式碼如何組織和引用模組非常重要。
+
+以下是一些可用的 `module` 選項：
+
+- `None`: 不產生模組，所有的 `import` 和 `export` 會被忽略。
+- `CommonJS`: 這是 Node.js 和一些瀏覽器環境中使用的模組系統。
+- `AMD`: 這是非同步模組定義，用於瀏覽器。
+- `System`: 這是 SystemJS 加載器的模組格式。
+- `UMD`: 這是通用模組定義，可以在 CommonJS 和 AMD 環境中使用。
+- `ES6` 或 `ES2015`: 這是 ECMAScript 6 模組系統。
+- `ESNext`: 這是最新的 ECMAScript 模組系統。
+
+選擇哪種模組系統取決於你的目標環境和你的程式碼組織方式。例如，如果你正在為 Node.js 編寫程式，你可能會選擇 `CommonJS`。如果你正在為瀏覽器編寫程式，你可能會選擇 `AMD` 或 `System`。
+
+- target: 指定 ECMAScript 目標版本
+- declaration: 生成對應的 `.d.ts` 檔案
