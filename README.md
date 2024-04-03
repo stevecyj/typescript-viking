@@ -4,6 +4,25 @@
 
 2-14 声明文件 第二部分
 
+## 基礎類型
+
+<https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Data_structures>
+
+- 六種原始型別
+  - boolean
+  - number
+  - string
+  - null
+  - undefined
+  - symbol
+  - bigint
+- 物件型別
+  - object
+
+### 原始值
+
+<https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Data_structures#%E5%8E%9F%E5%A7%8B%E5%80%BC>
+
 ## undefined
 
 在TypeScript的tsconfig.json設定檔中，有一個名為strictNullChecks的選項，用於開啟或關閉嚴格的null檢查。
