@@ -89,7 +89,11 @@ let user: [string, number] = ['viking', 1]
 
 ## interface
 
+定義 object 的類型
+也可以定義 function、array、class
+
 - 對物件的形狀進行描述
+- 對 class 進行抽象
 - Duck Typing(鴨子類型)
 - 用來做類型檢查
 
