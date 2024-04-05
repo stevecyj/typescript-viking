@@ -29,7 +29,7 @@
 
 ## 不確定類型 聯合類型
 
-```javascript
+```typescript
 let numberOrString: number | string = 234
 ```
 
@@ -57,6 +57,34 @@ let numberOrString: number | string = 234
     "strictNullChecks": false
   }
 }
+```
+
+## array
+
+把同一種類型的元素放在一個陣列中
+
+```typescript
+let arrOfNumbers: number[] = [1, 2, 3, 4]
+```
+
+### array like object
+
+```typescript
+function sum() {
+  let args: IArguments = arguments
+
+}
+```
+
+可以取得 length、下標
+但是不能使用 array 的方法
+
+## tuple
+
+有明確的長度和類型的陣列
+
+```typescript
+let user: [string, number] = ['viking', 1]
 ```
 
 ## interface

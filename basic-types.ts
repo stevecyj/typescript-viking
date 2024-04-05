@@ -14,3 +14,9 @@ notSure.myName
 notSure.getName()
 
 let numberOrString: number | string = 234
+
+let arrOfNumbers: number[] = [1, 2, 3, 4]
+
+function test() {
+  console.log(arguments)
+}
