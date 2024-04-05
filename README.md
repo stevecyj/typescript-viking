@@ -23,6 +23,16 @@
 
 <https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Data_structures#%E5%8E%9F%E5%A7%8B%E5%80%BC>
 
+## 不確定類型 any
+
+避免過度使用
+
+## 不確定類型 聯合類型
+
+```javascript
+let numberOrString: number | string = 234
+```
+
 ## undefined
 
 在TypeScript的tsconfig.json設定檔中，有一個名為strictNullChecks的選項，用於開啟或關閉嚴格的null檢查。
